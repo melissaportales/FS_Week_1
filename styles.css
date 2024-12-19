@@ -1,0 +1,47 @@
+.hero {
+  color: white;
+  text-align: center;
+  display: flex;
+  background-image: linear-gradient(
+    to right,
+    rgba(204, 12, 48, 0.897),
+    rgba(205, 92, 92, 0.792)
+  );
+  padding: 60px;
+}
+
+.grid {
+  padding: 30px;
+}
+.menu .card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.menu .card-img-top {
+  object-fit: cover;
+  height: 200px;
+}
+
+.menu .card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form {
+  text-align: left;
+  padding: 100px;
+}
+
+.summary table th,
+.summary table td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.footer {
+  padding: 10px;
+}
